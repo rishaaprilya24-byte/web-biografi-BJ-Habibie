@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografi BJ Habibie</title>
+
+  <style>
+    body {
+      font-family: 'Times New Roman';
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      transition: 0.5s;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0066cc, #0099ff);
+      color: white;
+      text-align: Algerian;
+      padding: 25px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 38px;
+    }
+
+    nav {
+      background-color: #004c99;
+      padding: 12px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav button {
+      background-color: white;
+      color: #004c99;
+      border: none;
+      padding: 10px 18px;
+      margin: 5px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav button:hover {
+      background-color: #d9e6ff;
+      transform: scale(1.05);
+    }
+
+    main {
+      max-width: 950px;
+      margin: 25px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      animation: fadeIn 1s;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #0066cc;
+      border-left: 5px solid #0066cc;
+      padding-left: 10px;
+    }
+
+    p {
+      line-height: 1.9;
+      text-align: justify;
+      font-size: 17px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 260px;
+      border-radius: 12px;
+      transition: 0.5s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #004c99;
+      transform: scale(1.05);
+    }
+
+    ul li {
+      margin: 10px 0;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #0066cc;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    .dark-mode {
+      background-color: #1e1e1e;
+      color: white;
+    }
+
+    .dark-mode main {
+      background-color: #333;
+      color: white;
+    }
+
+    .dark-mode nav {
+      background-color: #111;
+    }
+
+    .dark-mode header,
+    .dark-mode footer {
+      background: #111;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Biografi BJ Habibie</h1>
+    <p>Presiden ke-3 Republik Indonesia dan Tokoh Teknologi Dunia</p>
+  </header>
+
+  <nav>
+    <button onclick="scrollKe('tentang')">Biografi</button>
+    <button onclick="scrollKe('prestasi')">Prestasi</button>
+    <button onclick="scrollKe('galeri')">Galeri</button>
+    <button onclick="ubahMode()">Dark Mode</button>
+  </nav>
+
+  <main>
+
+    <section id="tentang">
+      <h2>Biografi BJ Habibie</h2>
+
+      <img id="gambarHabibie"
+      src="BJ-Habibie.jpg"alt="BJ Habibie">
+
+      <p>
+        Bacharuddin Jusuf Habibie atau yang lebih dikenal dengan nama BJ Habibie
+        lahir di Parepare, Sulawesi Selatan, pada tanggal 25 Juni 1936.
+        Beliau merupakan anak keempat dari delapan bersaudara.
+        Sejak kecil, BJ Habibie dikenal sebagai anak yang cerdas dan memiliki
+        minat besar dalam bidang ilmu pengetahuan dan teknologi.
+      </p>
+
+      <p>
+        Setelah menyelesaikan pendidikan di Indonesia, BJ Habibie melanjutkan
+        studi ke Jerman untuk mempelajari teknik penerbangan.
+        Beliau berhasil menempuh pendidikan di Rhein Westfalen Aachen
+        University dan memperoleh gelar doktor di bidang teknik penerbangan
+        dengan prestasi yang sangat membanggakan.
+      </p>
+
+      <p>
+        Di Jerman, BJ Habibie bekerja pada industri pesawat terbang dan berhasil
+        menciptakan teori yang dikenal dengan nama "Habibie Factor" atau teori
+        crack progression. Teori ini digunakan untuk menghitung keretakan pada
+        badan pesawat sehingga mampu meningkatkan keamanan penerbangan.
+      </p>
+
+      <p>
+        Setelah kembali ke Indonesia, BJ Habibie dipercaya memimpin Industri
+        Pesawat Terbang Nusantara (IPTN) yang kini dikenal sebagai PT Dirgantara
+        Indonesia. Beliau memiliki cita-cita besar untuk menjadikan Indonesia
+        sebagai negara maju dalam bidang teknologi dan industri penerbangan.
+      </p>
+
+      <p>
+        Pada tahun 1998, BJ Habibie diangkat menjadi Presiden ke-3 Republik
+        Indonesia menggantikan Presiden Soeharto.
+        Dalam masa kepemimpinannya, beliau melakukan berbagai reformasi penting,
+        seperti kebebasan pers, pelaksanaan pemilu demokratis, dan memperbaiki
+        kondisi ekonomi Indonesia setelah krisis.
+      </p>
+
+      <p>
+        BJ Habibie dikenal sebagai sosok yang cerdas, sederhana, disiplin,
+        dan sangat mencintai bangsa Indonesia.
+        Beliau menjadi inspirasi bagi generasi muda untuk terus belajar,
+        bekerja keras, dan berkontribusi bagi negara.
+      </p>
+
+      <button class="btn" onclick="gantiGambar()">
+        Ganti Gambar
+      </button>
+    </section>
+
+    <section id="prestasi">
+      <h2>Prestasi BJ Habibie</h2>
+
+      <ul id="listPrestasi">
+        <li>Presiden ke-3 Republik Indonesia</li>
+        <li>Ahli teknologi penerbangan dunia</li>
+        <li>Pendiri Industri Pesawat Terbang Nusantara (IPTN)</li>
+        <li>Pencipta teori crack progression pada pesawat</li>
+        <li>Mengembangkan pesawat N-250 karya anak bangsa</li>
+        <li>Mendapat banyak penghargaan internasional di bidang teknologi</li>
+        <li>Mendorong perkembangan industri strategis Indonesia</li>
+        <li>Melakukan reformasi demokrasi saat menjabat Presiden</li>
+        <li>Membebaskan kebebasan pers di Indonesia</li>
+        <li>Menjadi inspirasi generasi muda Indonesia dalam bidang pendidikan dan teknologi</li>
+      </ul>
+
+      <button class="btn" onclick="tambahPrestasi()">
+        Tambah Prestasi
+      </button>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri BJ Habibie</h2>
+
+      <p>
+        BJ Habibie dikenal sebagai salah satu tokoh paling berpengaruh
+        dalam sejarah Indonesia, terutama dalam bidang teknologi,
+        pendidikan, dan pemerintahan.
+      </p>
+
+        <div class="gallery">
+
+    <img src="Habibie-Istana-e1568268196144-1280x720.jpg" alt="BJ Habibie 1">
+
+    <img src="035889900_1559533869-habibie_ainun.jpg" alt="BJ Habibie 2">
+
+    <img src="gettyimages-474117485-1024x1024.jpg" alt="BJ Habibie 3">
+
+    <img src="7cdcced8f1f4ff8e8f36349b7a03f09a-_soundtrack_ruddy_habibie_-_20-5-16_md_gedung__2_.jpg" alt="BJ Habibie dan Ainun">
+
+  </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© [2026] All rights reserved by Risha Aprilya.</p>
+  </footer>
+
+  <script>
+
+    function scrollKe(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: "smooth"
+      });
+    }
+
+    function tambahPrestasi() {
+      const ul = document.getElementById("listPrestasi");
+
+      const prestasiBaru = document.createElement("li");
+      prestasiBaru.textContent =
+      "Mendapat julukan Bapak Teknologi Indonesia";
+
+      ul.appendChild(prestasiBaru);
+    }
+
+    function gantiGambar() {
+      const gambar = document.getElementById("gambarHabibie");
+
+      if (gambar.src.includes("portrait")) {
+        gambar.src =
+        "habibie.jpg";
+      } else {
+        gambar.src =
+        "artworks-CmyWCrmJDzQlDQ2U-lAenhQ-t500x500.jpg"
+      }
+    }
+
+    function ubahMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+
+  </script>
+
+</body>
+</html>
